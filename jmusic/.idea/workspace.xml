@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45e11383-2359-487d-afdf-005420d51a3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lume/instruments/InvalidArgumentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lume/teclado/Nota.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lume/lume/instruments/Instruments.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lume/instruments/Instruments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lume/instruments/Instruments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lume/instruments/instrumento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lume/instruments/instrumento.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,24 +21,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lume/instruments/Instruments.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state>
+              <caret lean-forward="true" />
               <folding>
-                <element signature="e#1092#1093#0" expanded="true" />
-                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lume/instruments/InvalidArgumentException.java">
+        <entry file="file://$PROJECT_DIR$/src/lume/teclado/Nota.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#246#252#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lume/instruments/instrumento.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="60">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -72,10 +68,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/lume/instruments/instrumento.java" />
         <option value="$PROJECT_DIR$/src/lume/teclado/nota.java" />
-        <option value="$PROJECT_DIR$/src/lume/teclado/Nota.java" />
         <option value="$PROJECT_DIR$/src/lume/instruments/InvalidArgumentException.java" />
+        <option value="$PROJECT_DIR$/src/lume/instruments/instrumento.java" />
+        <option value="$PROJECT_DIR$/src/lume/teclado/Nota.java" />
         <option value="$PROJECT_DIR$/src/lume/instruments/Instruments.java" />
       </list>
     </option>
@@ -115,7 +111,7 @@
               <item name="jmusic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lume" type="462c0819:PsiDirectoryNode" />
-              <item name="instruments" type="462c0819:PsiDirectoryNode" />
+              <item name="teclado" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -153,13 +149,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Instruments">
+  <component name="RunManager" selected="Application.Nota (1)">
     <configuration name="Instruments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lume.instruments.Instruments" />
       <module name="Lume" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lume.instruments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Nota (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lume.teclado.Nota" />
+      <module name="Lume" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lume.teclado.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,6 +185,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Nota (1)" />
         <item itemvalue="Application.Instruments" />
         <item itemvalue="Application.Nota" />
       </list>
@@ -197,18 +207,18 @@
       <workItem from="1560520429802" duration="226000" />
       <workItem from="1560879509699" duration="3562000" />
       <workItem from="1560946286708" duration="88000" />
-      <workItem from="1560950317608" duration="4371000" />
+      <workItem from="1560950317608" duration="6618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11575000" />
+    <option name="totallyTimeSpent" value="13822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1366" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27265862" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27265862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -218,7 +228,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -228,7 +238,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -244,25 +254,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lume/instruments/instrumento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inst/AddInst.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lume/teclado/Nota.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="64" column="5" selection-start-line="6" selection-start-column="71" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lume/instruments/InvalidArgumentException.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -275,13 +268,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/lume/teclado/Nota.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lume/instruments/instrumento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lume/instruments/Instruments.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
           </folding>
         </state>
       </provider>

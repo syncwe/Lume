@@ -12,7 +12,7 @@ public class Instruments implements instrumento{
 
     @Override
     public void mensagem() {
-        System.out.println("Esse botão server para Selecionar o Instrumento" + timbre);
+        System.out.println("Esse botao server para selecionar o instrumento" + timbre);
     }
 
     @Override
@@ -35,7 +35,7 @@ public class Instruments implements instrumento{
                 System.out.println("O timbre mudou para: " + this.timbre);
                 break;
             default:
-                System.out.println("Selecione um argumento válido");
+                System.out.println("Selecione um argumento valido");
                 break;
         }
 
