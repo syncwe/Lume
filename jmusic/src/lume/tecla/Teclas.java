@@ -1,4 +1,4 @@
-package lume.teclado;
+package lume.tecla;
 
 import jm.JMC;
 import jm.music.data.Note;
