@@ -6,14 +6,14 @@ import java.util.ArrayList;
 
 public class Oitava implements JMC {
 
-	public static ArrayList AumentarOitava(ArrayList<Note> array) {
+	public ArrayList AumentarOitava(ArrayList<Note> array) {
 		for(int i = 0; i < array.size(); i++) {
 			array.get(i).setPitch(array.get(i).getPitch() + 12);
 		}
 		return array;
 	}
 
-	public static ArrayList DiminuirOitava(ArrayList<Note> array) {
+	public ArrayList DiminuirOitava(ArrayList<Note> array) {
 		for(int k = 0; k < array.size(); k++) {
 			array.get(k).setPitch(array.get(k).getPitch() - 12);
 		}
@@ -30,7 +30,7 @@ public class Oitava implements JMC {
 		arr.add(c1);
 		arr.add(d1);
 		arr.add(e1);
-		System.out.println(AumentarOitava(arr));
+//		System.out.println(AumentarOitava(arr));
 
 	}
 	

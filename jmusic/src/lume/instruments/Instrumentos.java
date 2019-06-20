@@ -7,7 +7,7 @@ enum Timbres {
     Percursao
 }
 
-public class Instruments implements instrumento{
+public class Instrumentos implements instrumento{
     Timbres timbre = Timbres.Teclado;
 
     @Override
@@ -43,7 +43,7 @@ public class Instruments implements instrumento{
 
     // Para teste
     public static void teste(){
-        Instruments inst = new Instruments();
+        Instrumentos inst = new Instrumentos();
         System.out.println("O instrumento inicial é: " + inst.timbre);
         inst.selectInst(1);
         inst.selectInst(2);

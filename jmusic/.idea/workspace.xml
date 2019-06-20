@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45e11383-2359-487d-afdf-005420d51a3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lume/teclado/Teclado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lume/lume/instruments/Instruments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lume/lume/instruments/Timbres.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lume/lume/instruments/Timbres.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lume/lume/teclado/Nota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lume/lume/teclado/Nota.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lume/lume/teclado/Teclas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lume/instruments/Instruments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lume/instruments/Instrumentos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lume/oitava/Oitava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lume/oitava/Oitava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lume/tecla/Teclas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lume/tecla/Teclas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lume/teclado/Nota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lume/teclado/Nota.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lume/instruments/Instruments.java">
+        <entry file="file://$PROJECT_DIR$/src/lume/instruments/Instrumentos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#1517#1518#0" expanded="true" />
-                <element signature="e#1540#1541#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -31,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lume/oitava/Oitava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="495">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,12 +47,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/lume/teclado/Teclas.java">
+        <entry file="file://$PROJECT_DIR$/src/lume/teclado/Teclado.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="60">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding>
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lume/tecla/Teclas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-75">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lume/teclado/Nota.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state>
+              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,20 +104,21 @@
         <option value="$PROJECT_DIR$/src/lume/teclado/nota.java" />
         <option value="$PROJECT_DIR$/src/lume/instruments/InvalidArgumentException.java" />
         <option value="$PROJECT_DIR$/src/lume/instruments/instrumento.java" />
-        <option value="$PROJECT_DIR$/src/lume/teclado/Nota.java" />
-        <option value="$PROJECT_DIR$/src/lume/instruments/Instruments.java" />
         <option value="$PROJECT_DIR$/src/lume/oitava/oitava.java" />
-        <option value="$PROJECT_DIR$/src/lume/oitava/Oitava.java" />
-        <option value="$PROJECT_DIR$/src/lume/teclado/Teclado.java" />
         <option value="$PROJECT_DIR$/src/lume/teclado/Teclas.java" />
+        <option value="$PROJECT_DIR$/src/lume/Tecla/Teclas.java" />
+        <option value="$PROJECT_DIR$/src/lume/instruments/Instruments.java" />
+        <option value="$PROJECT_DIR$/src/lume/teclado/Nota.java" />
+        <option value="$PROJECT_DIR$/src/lume/oitava/Oitava.java" />
+        <option value="$PROJECT_DIR$/src/lume/tecla/Teclas.java" />
+        <option value="$PROJECT_DIR$/src/lume/teclado/Teclado.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
     <option name="y" value="52" />
-    <option name="width" value="1346" />
-    <option name="height" value="696" />
+    <option name="width" value="1221" />
+    <option name="height" value="631" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,7 +156,22 @@
               <item name="jmusic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lume" type="462c0819:PsiDirectoryNode" />
+              <item name="instruments" type="462c0819:PsiDirectoryNode" />
+              <item name="Instrumentos.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Lume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmusic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lume" type="462c0819:PsiDirectoryNode" />
               <item name="oitava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lume" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jmusic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lume" type="462c0819:PsiDirectoryNode" />
+              <item name="tecla" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Lume" type="b2602c69:ProjectViewProjectNode" />
@@ -179,7 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Teclas">
+  <component name="RunManager" selected="Application.Teclado">
     <configuration name="Instruments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lume.instruments.Instruments" />
       <module name="Lume" />
@@ -213,6 +250,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Teclado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lume.teclado.Teclado" />
+      <module name="Lume" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lume.teclado.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Teclas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lume.tecla.Teclas" />
       <module name="Lume" />
@@ -228,8 +278,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Teclas" />
+        <item itemvalue="Application.Teclado" />
         <item itemvalue="Application.Nota (1)" />
+        <item itemvalue="Application.Teclas" />
         <item itemvalue="Application.Instruments" />
         <item itemvalue="Application.Nota" />
       </list>
@@ -252,17 +303,18 @@
       <workItem from="1560879509699" duration="3562000" />
       <workItem from="1560946286708" duration="88000" />
       <workItem from="1560950317608" duration="11509000" />
-      <workItem from="1561002030983" duration="612000" />
+      <workItem from="1561002030983" duration="8247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19325000" />
+    <option name="totallyTimeSpent" value="26960000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="32" width="1366" height="736" extended-state="6" />
+    <frame x="0" y="32" width="1366" height="736" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27643505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27643505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -271,8 +323,8 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -309,42 +361,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lume/instruments/Instruments.java">
+    <entry file="file://$PROJECT_DIR$/src/lume/instruments/Instrumentos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#1517#1518#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lume/oitava/Oitava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.desktop/java/awt/event/KeyListener.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lume/teclado/Nota.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lume/teclado/Teclas.java">
+    <entry file="file://$PROJECT_DIR$/src/lume/tecla/Teclas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="-75">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lume/teclado/Teclado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
           </folding>
         </state>
       </provider>

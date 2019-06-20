@@ -2,12 +2,27 @@ package lume.tecla;
 
 import jm.JMC;
 import jm.music.data.Note;
+import lume.oitava.Oitava;
+
 import java.util.ArrayList;
 
-public class Teclas implements JMC {
+public class Teclas extends Oitava implements JMC{
+    public Teclas(){
+        this.ImplementaTeclado();
+    }
 
     // Conjunto do objeto de nota
     private static ArrayList<Note> teclas = new ArrayList<Note>();
+
+    public void mudarOitava(int decision){
+        if(decision == 1){
+            this.setTeclas(this.AumentarOitava(this.getTeclas()));
+            System.out.println("Aumentou uma oitava");
+        }else if(decision == 0){
+            this.setTeclas(this.DiminuirOitava(this.getTeclas()));
+            System.out.println("Diminui uma oitava");
+        }
+    }
 
     public ArrayList<Note> getTeclas() {
         return teclas;
@@ -64,5 +79,6 @@ public class Teclas implements JMC {
     public static void main(String[] args) {
         // Para teste
         teste();
+
     }
 }
