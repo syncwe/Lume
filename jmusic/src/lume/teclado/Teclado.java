@@ -69,7 +69,18 @@ public class Teclado extends Teclas{
                 this.mudarOitava(0);
                 break;
 
-
+            case "z":
+                this.instrumentos.selectInst(0);
+                break;
+            case "x":
+                this.instrumentos.selectInst(1);
+                break;
+            case "c":
+                this.instrumentos.selectInst(2);
+                break;
+            case "v":
+                this.instrumentos.selectInst(3);
+                break;
         }
     }
 
