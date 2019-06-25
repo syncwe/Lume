@@ -1,12 +1,13 @@
 # Gurpo SyncWe
-Projeto Lume 
+##Projeto Lume 
 
 ![Logo Lume](Lume.png)
 
 --- 
 
-# Como ultilizar
+# Como utilizar
 Devido as limitações do hardware ultilizado e sua comunicação com o java, o projeto separado em várias partes, primeiramente precisa ter o setup montado, depois deve-se rodar o código do java. 
+
 ## Setup 
 Para a melhor ultilização é necessário ter umas raspberry com o circtuito dos botões criados, e conectado ao arduino, que vai conter o a capa do botão feito com papel aluminio ou grafite, para realizar o feedback por voz. A raspberry deve ter instalado o o java 8 para rodar a aplicação. 
 Para rodar o teclado em java é necessário um computador com o java 8 instalado .
